@@ -21,7 +21,7 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) =>{
 
 				</div>
 
-				<span className = 'f3'>{'Google an image and copy image address/image link. Paste image address above and press Detect.'}</span>
+				<span className = 'f3'>{'Google a face image and copy image address/image link. Paste image address above and press Detect.'}</span>
 				
 			</div>
 			
