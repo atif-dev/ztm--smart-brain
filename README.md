@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Setup
 
-In the project directory, you can run:
+Project consists of two parts:
+- Front-end(HTML5 , CSS3 , JavaScript + React)
+- Back-end(Node.js , Express.js | PostgreSQL(SQL knex))
 
-### `npm start`
+## Deployment
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Project is deployed over [heroku server](https://www.heroku.com/home). Live at https://ztm--smart-brain.herokuapp.com/ .Before pushing code at heroku project code was pushed at GitHub.
+- [GitHub Front-end code](https://github.com/atif-dev/ztm--smart-brain)
+- [GitHub Back-end API code](https://github.com/atif-dev/smart-brain-api) 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Demonstration
 
-### `npm test`
+The purpose of this project is to detect a face in a picture. If there is a face in a picture then face will be detected using a blue box. For face detection [Clarifai API](https://www.clarifai.com/) is used.
+Let's talk about front end...We need to register first at https://ztm--smart-brain.herokuapp.com/. During registration at back-end in code registered user password will be hashed(Simply means I can't figure out what will be your password while interacting with database). After registration we have to perform following steps for face detection.
+1. Google a face image
+2. Copy image address/image link
+3. Paste link in input field
+4. Click/Touch Detect button
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### About Project
+Project is build and deployed by following a really nice online course available at [Udemy](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) and [Zero To Mastery](https://zerotomastery.io/courses/coding-bootcamp/)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Feedback
+Any type of Feedback from your side? Send me an email at ati1254@gmail.com
