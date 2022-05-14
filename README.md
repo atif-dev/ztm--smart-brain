@@ -14,8 +14,8 @@ Project is deployed over [heroku server](https://www.heroku.com/home). Live at h
 
 ### Demonstration
 
-The purpose of this project is to detect a face in a picture. If there is a face in a picture then face will be detected using a blue box. For face detection [Clarifai API](https://www.clarifai.com/) is used.
-Let's talk about front end...We need to register first at https://ztm--smart-brain.herokuapp.com/. During registration at back-end in code registered user password will be hashed(Simply means I can't figure out what will be your password while interacting with database). After registration we have to perform following steps for face detection.
+The purpose of this project is to detect a face in a picture. If there will be face in a picture then face will be detected using a blue box. For face detection [Clarifai API](https://www.clarifai.com/) is used.
+Let's talk about front end...We need to register first at https://ztm--smart-brain.herokuapp.com/. During registration at back-end in code registered user password will be hashed(Simply means I can't figure out what will be your password while interacting with database). After registration we will have to perform following steps for face detection.
 1. Google a face image
 2. Copy image address/image link
 3. Paste link in input field
