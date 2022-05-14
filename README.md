@@ -21,6 +21,9 @@ Let's talk about front end...We need to register first at https://ztm--smart-bra
 3. Paste link in input field
 4. Click/Touch Detect button
 
+### Screenshot
+![PC View](https://github.com/atif-dev/ztm--smart-brain/blob/main/screenshot.png)
+
 ### About Project
 Project is build and deployed by following a really nice online course available at [Udemy](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) and [Zero To Mastery](https://zerotomastery.io/courses/coding-bootcamp/)
 
